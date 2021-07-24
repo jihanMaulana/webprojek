@@ -1,0 +1,210 @@
+==================HALAMAN TAMBAH BARANG================================
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="tambah_barang.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdn.ckeditor.com/4.16.1/standard/ckeditor.js"></script>
+</head>
+<body>
+
+	<div class="header">
+		<h1>ini adalah header untuk menempatkan logo perusahaan</h1>
+	</div>
+	<div class="kotak">
+		<div class="pertama">
+			<label for="id"></label>
+			<input class="id" type="hidden" id="id" name="id Toko" placeholder="ID Barang">
+		</div>
+		<div class="kedua">
+			<label class="nama" for="Nama">Nama Toko</label>
+			<input class="nama" type="text" id="Nama" name="Nama Toko" placeholder="Nama Toko">
+		</div>
+		<div class="ketiga">
+			<label class="namaBarang" for="Nama">Nama</label>
+			<input class="namaBarang" type="text" id="Nama" name="Nama Toko" placeholder="Nama Barang">
+		</div>
+		<div class="keempat">
+			<label for="Jenis">Jenis / Unit</label>
+			<input class="Jenis" type="text" id="Jenis" name="Jenis" placeholder="Merk">
+		</div >
+		<div class="kelima">
+			<label for="Tipe">Tipe</label>
+			<input class="Tipe" type="text" id="Tipe" name="Tipe" placeholder="Tipe Barang">
+		</div >
+		<div class="keenam">
+			<label for="tanggal">Tanggal masuk</label>
+			<input class="tanggal" type="date" id="nomor telepon" name="nomor telepon" placeholder="tanggal masuk">
+		</div >
+
+		<div class="ketujuh">
+			<label for="ref">Referensi</label>
+			<input class="ref" type="number" id="ref" name="ref" placeholder="Nomor Referensi">
+		</div >
+			<h3 style="text-align: center; text-decoration: underline;">catatan tambahan</h3>
+		<textarea name="editor1"></textarea>
+		<script type="text/javascript">
+			 CKEDITOR.replace( 'editor1' );
+		</script>
+	</div>
+		<div class="kedelapan">
+			<input class="submit" type="submit" value="simpan">
+		</div>
+	</div>
+	<div class="ckeditor">
+	
+
+	<div class="footer">
+		<h1>ini sekotak footer</h1>
+	</div>
+
+
+
+</body>
+</html>
+
+
+
+
+=======================FILE CSS============================
+
+.header{
+	position: static;
+	border: 3px solid;
+	margin: 20px;
+
+}
+.header h1{
+	text-align: center;
+	font-size: xx-large;
+}
+
+.kotak{
+	margin: auto;
+	position: static;
+	border: 3px solid;
+	width: 70%;
+	padding: 30px;
+	background-color:;
+}
+
+.pertama .id{
+	margin: auto;
+	width: 400px;
+	height: 30px;
+	margin-left: 10px;
+
+}
+
+.kedua .nama{
+	margin: auto;
+	width: 400px;
+	height: 30px;
+	margin-left: 10px;
+
+
+}
+
+.ketiga .namaBarang{
+	width: 400px;
+	height: 30px;
+	margin: auto;
+	margin-left: 10px;
+}
+
+.keempat .Jenis{
+	width: 400px;
+	height: 30px;
+	margin: auto;
+	margin-left: 10px;
+}
+.kelima .Tipe{
+	width: 400px;
+	height: 30px;
+	margin: auto;
+	margin-left: 10px;
+}
+.keenam .tanggal{
+	width: 400px;
+	height: 30px;
+	margin: auto;
+	margin-left: 10px;
+}
+.ketujuh .ref{
+	width: 400px;
+	height: 30px;
+	margin: auto;
+	margin-left: 10px;
+}
+.kedelapan .submit{
+	margin: auto;
+	width: 400px;
+	height: 30px;
+	text-align: center;
+	color: white;
+	background-color: black;
+
+}
+
+.pertama{
+	margin: 20px;
+	text-align: center;
+
+}
+
+.kedua{
+	margin: 20px;
+	text-align: center;
+
+}
+
+.ketiga{
+	margin: 20px;
+	text-align: center;
+
+}
+.keempat{
+	margin: 20px;
+	text-align: center;
+
+}
+
+.kelima{
+	margin: 20px;
+	text-align: center;
+}
+
+.keenam{
+	margin: 20px;
+	text-align: center;
+}
+
+.ketujuh{
+	margin: 20px;
+	text-align: center;
+}
+
+.kedelapan{
+	margin: 20px;
+	text-align: center;
+}
+
+.ckeditor{
+	position: static;
+	width: 70%;
+	margin: auto;
+	padding: 20px;
+}
+
+.footer{
+	position: static;
+	border: 3px solid;
+	margin: 20px;
+}
+.footer h1{
+	text-align: center;
+	font-family: arial;
+}
